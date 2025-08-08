@@ -16,7 +16,11 @@
 	},
 	"observability": {
 		"enabled": true
-	}
+	},
+	"vars": {
+		"MCP_API_KEY": "ac499a6c3a52eac018ebc2cf53d10ec6a3259",
+		"GEMINI_API_KEY": "AIzaSyC9ZoHwCZSaiaTp9z9pMScnvn1jMhLVd6E"
+	},
 	/**
 	 * Smart Placement
 	 * Docs: https://developers.cloudflare.com/workers/configuration/smart-placement/#smart-placement

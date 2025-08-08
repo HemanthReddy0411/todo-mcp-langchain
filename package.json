@@ -14,5 +14,15 @@
 		"typescript": "^5.5.2",
 		"vitest": "~3.2.0",
 		"wrangler": "^4.28.1"
+	},
+	"dependencies": {
+		"@cloudflare/ai": "^1.2.2",
+		"@langchain/cloudflare": "^0.1.0",
+		"@langchain/core": "^0.3.67",
+		"@langchain/google-genai": "^0.2.16",
+		"@langchain/openai": "^0.6.4",
+		"hono": "^4.8.12",
+		"langchain": "^0.3.30",
+		"z": "^1.0.9"
 	}
 }
