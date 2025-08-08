@@ -112,6 +112,20 @@ The core of the application is turning a user's message into a structured JSON o
 ```
 
 ---
+## Sample Test Cases
+| Endpoint | Message |
+|----------|---------|
+| `/chat` (POST) | `"Add a task to call the bank"` |
+| `/chat` (POST) | `"Show me all tasks"` |
+| `/chat` (POST) | `"Mark task 1 as done"` |
+| `/chat` (POST) | `"Remove task 1"` |
+| `/chat` (POST) | `"Do something weird"` |
+| `/chat` (POST) | `"Add something"` |
+| `/chat` (POST) | `"Finish the task"` |
+| `/chat` (POST) | `"Mark task 99 as done"` |
+| `/chat` (POST) | `"Add a task"` *(Gemini returns invalid JSON)* |
+
+---
 
 ## 📊 Flowchart
 
